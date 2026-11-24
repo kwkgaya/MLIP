@@ -225,3 +225,11 @@ __marimo__/
 # macOS
 .DS_Store
 __MACOSX/
+
+# Generated data (recreate by running the week notebooks / Mage pipelines)
+*.csv
+*.parquet
+
+# Mage AI local state (accidental "~" home folder on Windows)
+~/
+.mage_data/
